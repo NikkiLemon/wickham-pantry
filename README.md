@@ -2,7 +2,7 @@
 
 [View the live project here](XXX)
 
-This is the main charity website for Wickham Pantry Charity, It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential voluteeners, partners and anyone looking to donate or visit the Pantry. 
+This is the main charity website for Wickham Pantry Charity. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential voluteeners, partners and anyone looking to donate or visit the Pantry. 
 
 <h2 align="center"> IMAGE HERE</h2>
 
@@ -13,7 +13,7 @@ This is the main charity website for Wickham Pantry Charity, It is designed to b
 - #### First Time Visitor Goals 
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation. 
-    2. As a First Time Visitor, I want to be able to easily naviagte throughout the site to find content. 
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. 
     3. As a First Time Visitor, I also want to see where the Pantry is located.
     4. As a First Time Visitor, I also want to locate their social media to determine how well known they are, reviews and recent updates. 
 
