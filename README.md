@@ -1,6 +1,6 @@
 <h1 align="center">Project One - Wickham Pantry Charity</h1>
 
-[View the live project here](XXX)
+[View the live project here](Link to live project)
 
 This is the main charity website for Wickham Pantry Charity. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential voluteeners, partners and anyone looking to donate or visit the Pantry. 
 
@@ -25,7 +25,7 @@ This is the main charity website for Wickham Pantry Charity. It is designed to b
     1. As a Frequent User, I want to check if there is any new updates and see if there the organisation is near their donation goals. 
 
 * ### Wireframes
-    - Home Page Wireframe - [View] (XXX)
+    - Home Page Wireframe - [View] (Link to Home Page Wireframe)
     
-    - Mobile Wireframe - [View] (XXX)
+    - Mobile Wireframe - [View] (Link to Mobile Wireframe)
 
