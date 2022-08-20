@@ -25,7 +25,4 @@ This is the main charity website for Wickham Pantry Charity. It is designed to b
     1. As a Frequent User, I want to check if there is any new updates and see if there the organisation is near their donation goals. 
 
 * ### Wireframes
-    - Home Page Wireframe - [View] (Link to Home Page Wireframe)
-    
-    - Mobile Wireframe - [View] (Link to Mobile Wireframe)
-
+    - Home Page & Mobile Wireframe - [Here are my wireframes for desktop and mobile for this project] (../assets/wireframes/wickham-pantry.pdf)
