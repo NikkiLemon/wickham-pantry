@@ -60,3 +60,40 @@ header {
 .active {
     border-bottom: 1px solid #003333;
 }
+
+/* slider */
+
+.section-one {
+    box-sizing: border-box;
+    margin-top: 75px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+.section-one .logo {
+    font-size: 2em;
+    color: beige;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section-one .toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url(../images/bars-solid.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+}
