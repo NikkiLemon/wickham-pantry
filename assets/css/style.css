@@ -106,3 +106,17 @@ header {
 #slide3:checked ~ .slider-wrapper .slider-images {
     margin-left: -200%;
 }
+
+/* slide */
+
+.slider-images {
+    width: calc(100% / 3);
+}
+
+.slider-images img {
+    display: block;
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
