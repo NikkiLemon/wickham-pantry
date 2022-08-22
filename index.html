@@ -36,7 +36,37 @@
         </nav>
     </header>
     <section>
-        <div class="slideshow">
+        <div id="carousel-pantry-images" class="carousel-slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-pantry-images" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-pantry-images" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-pantry-images" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('assets/images/two-ladies-shopping.jpg')">
+                    <div class="carousel-caption">
+                        <h5>First Slide Label</h5>
+                        <p>Some content text here</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('assets/images/volunteers.jpg')">
+                    <div class="carousel-caption">
+                        <h5>Second Slide Label</h5>
+                        <p>Some content text here</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('assets/images/van-delivery.jpg')">
+                    <div class="carousel-caption">
+                        <h5>Second Slide Label</h5>
+                        <p>Some content text here</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
             <input class="slider-input" checked type="radio" name="slider" id="slide1">
             <input class="slider-input" type="radio" name="slider" id="slide2">
             <input class="slider-input" type="radio" name="slider" id="slide3">
@@ -61,8 +91,26 @@
             </div>
         </div>
         <div class="slider-arrows">
-            <div></div>
-
+            <div class="slider-arrow-left"> 
+                <figure>
+                    <i class="fa-solid fa-arrow-left"></i>
+                </figure>
+            </div>
+            <div class="slider-arrow-right"> 
+                <figure>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </figure>
+            </div>
+            <div class="slider-arrow-left"> 
+                <figure>
+                    <i class="fa-solid fa-arrow-left"></i>
+                </figure>
+            </div>
+            <div class="slider-arrow-right"> 
+                <figure>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </figure>
+            </div>
         </div>
     </section>
     <section>
