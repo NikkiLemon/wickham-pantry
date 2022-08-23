@@ -108,6 +108,19 @@ video {
 
 #get-involved {
     background-color: bisque;
-    height: 425px;
     width: 100%;
+    height: 425px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#get-involved-heading {
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: 10px;
 }
