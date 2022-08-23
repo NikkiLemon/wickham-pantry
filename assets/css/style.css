@@ -97,3 +97,11 @@ video {
     width: 100%;
     height: auto;
   }
+
+#left-about h1 {
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+
+  /* get involved */
+
