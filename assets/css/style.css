@@ -66,11 +66,13 @@ header {
 /* about us */
 
 #about-us {
+    background-color: white;
     width: 100%;
-    height: 100%;
+    height: 375px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 0;
     border: 0;
     display: flex;
     justify-content: center;
@@ -108,7 +110,7 @@ video {
 #get-involved {
     background-color: bisque;
     width: 100%;
-    height: 550px;
+    height: 450px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -125,7 +127,7 @@ video {
 .get-involved-info {
     background-color: white;
     width: 100%;
-    height: 175px;
+    height: 150px;
     margin-top: 10px;
     padding: 10px;
 }
@@ -224,4 +226,8 @@ video {
     text-transform: uppercase;
     text-decoration: underline;
     margin-bottom: 10px;
+}
+
+#address p {
+    line-height: 30px;
 }
