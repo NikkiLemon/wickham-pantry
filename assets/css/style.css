@@ -39,7 +39,7 @@ header {
     letter-spacing: 2px;
 }
 
-.menu, #logo {
+.menu, .logo {
     line-height: 75px;
 }
 
@@ -65,7 +65,7 @@ header {
 
 /* about us */
 
-#about-us {
+.about-us {
     background-color: white;
     width: 100%;
     height: 375px;
@@ -79,7 +79,7 @@ header {
     align-items: center;
 }
 
-#left-about {
+.left-about {
     float: left;
     width: 50%;
     height: auto;
@@ -88,7 +88,7 @@ header {
     text-align: center;
 }
 
-#right-about {
+.right-about {
     float: right;
     max-width: 100%;
     height: auto;
@@ -100,86 +100,65 @@ video {
     height: auto;
   }
 
-#left-about h1 {
+.left-about h1 {
     font-size: 200%;
     margin-bottom: 10px;
 }
 
   /* get involved */
 
-#get-involved {
+.get-involved {
     background-color: bisque;
     width: 100%;
-    height: 450px;
+    height: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-#get-involved h1{
+.get-involved h1{
     text-align: center;
     font-size: 200%;
 }
 
-#get-involved-main {
-    padding-inline: 30px;
+.get-involved-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: 2;
+    padding: 30px;
 }
 
-.get-involved-info {
-    background-color: white;
-    width: 100%;
-    height: 150px;
-    margin-top: 10px;
+.get-involved-main div {
+    border: 5px solid bisque;
     padding: 10px;
+    background-color: white;
 }
 
-.get-involved-info h3 {
-    font-size: 225%;
-    text-transform: uppercase;
-    text-decoration: underline;
-    margin-bottom: 10px;
+.money {
+    grid-column: 1 /3;
+    grid-row: 1;
 }
 
-#money {
-    float: left;
-    width: 30%;
+.food {
+    grid-column: 3 /4;
+    grid-row: 1;
 }
 
-#food {
-    float: right;
-    width: 60%;
+.partner {
+    grid-column: 1 / 2;
+    grid-row: 2;
 }
 
-#partner {
-    float: left;
-    width: 60%;
+.volunteer {
+    grid-column: 2 /4;
+    grid-row: 2;
 }
 
-#volunteer {
-    float: right;
-    width: 30%;
-}
 
-.left-info {
-    margin-left: 30px;
-    margin-right: 10px;
-}
-
-.right-info {
-    margin-right: 30px;
-    text-align: right;
-}
-
-.top-info {
-    margin-top: 30px;
-}
-
-.bottom-info {
-    margin-bottom: 30px;
-}
 
 /* Where To Find Us */
 
-#find-us {
+.find-us {
     background-color: bisque;
     width: 100%;
     height: 450px;
@@ -187,12 +166,12 @@ video {
     padding-bottom: 30px;
 }
 
-#find-us h1 {
+.find-us h1 {
     text-align: center;
     font-size: 200%;
 }
 
-#find-us-info {
+.find-us-info {
     width: 100%;
     height: 100%;
     margin-bottom: 30px;
@@ -203,7 +182,7 @@ video {
     align-items: center;
 }
 
-#map {
+.map {
     float: left;
     width: 66%;
     height: 300px;
@@ -212,7 +191,7 @@ video {
     text-align: center;
 }
 
-#address {
+.address {
     float: right;
     max-width: 100%;
     height: auto;
@@ -221,14 +200,14 @@ video {
     font-size: larger;
 }
 
-#address h3 {
+.address h3 {
     font-size: 225%;
     text-transform: uppercase;
     text-decoration: underline;
     margin-bottom: 10px;
 }
 
-#address p {
+.address p {
     line-height: 30px;
 }
 
