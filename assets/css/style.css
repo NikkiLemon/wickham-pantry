@@ -88,7 +88,7 @@ header {
 
 .right-about {
     float: right;
-    max-width: 100%;
+    width: 50%;
     height: auto;
     margin-left: 30px;
     margin-right: 30px;
@@ -122,7 +122,6 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    grid-template-rows: 2;
     padding: 30px;
 }
 
@@ -160,7 +159,8 @@ video {
     background-color: bisque;
     width: 100%;
     height: 100%;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .find-us h1 {
@@ -178,24 +178,24 @@ video {
 
 .find-us-info div {
     border: 5px solid bisque;
-    padding: 10px;
 }
 
 .map {
     grid-column: 1 / 4;
     grid-row: 1 / 4;
     height: 375px;
+    padding-left: 30px;
 }
 
 .address {
     grid-column: 4 / 5;
     grid-row: 2;
+    padding-right: 30px;
     text-transform: uppercase;
 }
 
 .address h3 {
     text-decoration: underline;
-    margin-bottom: 10px;
 }
 .address p {
     line-height: 20px;
@@ -203,27 +203,27 @@ video {
 
 /* contact us */
 
-#contact-us {
+.contact-us {
     background-color: yellow;
     width: 100%;
-    height: 450px;
+    height: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-#contact-us h1 {
+.contact-us h1 {
     text-align: center;
     font-size: 200%;    
 }
 
-#contact-details {
+.contact-details {
     float: left;
-    width: 50%;
     margin-left: 30px;
 }
 
-#contact-form {
+.contact-form {
     background-color: rgba(0, 0, 0, 0.3);
+    float: right;
 }
 
 .contact-box input {
