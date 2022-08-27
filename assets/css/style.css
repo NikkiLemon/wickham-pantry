@@ -14,6 +14,10 @@ body {
 
 /* headings and logo */
 
+h1 {
+    font-size: 300%;
+}
+
 h1, h2, h3 {
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
@@ -99,7 +103,6 @@ video {
   }
 
 .left-about h1 {
-    font-size: 200%;
     margin-bottom: 10px;
 }
 
@@ -115,7 +118,6 @@ video {
 
 .get-involved h1{
     text-align: center;
-    font-size: 200%;
 }
 
 .get-involved-main {
@@ -151,6 +153,55 @@ video {
     grid-row: 2;
 }
 
+/* Testimonials */ 
+
+
+.carousel-heading h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#carousel {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+    display: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.testimonial {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    align-items: center;
+}
+
+.test-images img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.test-images p {
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+
+    font-size: 1em;
+    text-align: center;
+}
+
 
 
 /* Where To Find Us */
@@ -165,7 +216,6 @@ video {
 
 .find-us h1 {
     text-align: center;
-    font-size: 200%;
 }
 
 .find-us-info {
@@ -212,8 +262,7 @@ video {
 }
 
 .contact-us h1 {
-    text-align: center;
-    font-size: 200%;    
+    text-align: center;  
 }
 
 .contact-details {
