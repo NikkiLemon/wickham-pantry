@@ -95,7 +95,7 @@ header {
 }
 video {
     width: 100%;
-    height: auto;
+    max-height: 375px;
   }
 
 .left-about h1 {
@@ -217,16 +217,46 @@ video {
 }
 
 .contact-details {
+    padding: 30px;
+}
+
+.contact-pantry {
     float: left;
-    margin-left: 30px;
 }
 
 .contact-form {
     background-color: rgba(0, 0, 0, 0.3);
+    width: 500px;
+    height: 100%;
+    margin-right: 60px;
     float: right;
+    display: grid;
+    grid-template-rows: 8;
+    gap: 10px;
+    padding: 30px;
 }
 
-.contact-box input {
-    width: 100px;
-    height: 100px;
+#fname, #lname, #email, textarea {
+    width: 400px;
+    height: auto;
+}
+
+#fname {
+    grid-row: 1 / 2;
+}
+
+#lname {
+    grid-row: 2 / 3;
+}
+
+#email {
+    grid-row: 3 / 4;
+}
+
+textarea {
+    grid-row: 4 / 8;
+}
+
+#submit {
+    grid-row: 8 / 9;
 }
