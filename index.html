@@ -148,16 +148,16 @@
 
             </div>
             <div class="contact-form">
-                <form class="form-box">
-                    <label for="fname"></label>
-                    <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
-                    <label for="lname"></label>
-                    <input type="text" id="lname" name="lname" placeholder="Last Name" required>
-                    <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="Email Address" required>
-                    <label for="message"></label>
-                    <textarea name="message" placeholder="Message" required></textarea>
-                    <input type="submit" name="submit" id="submit" value="Submit">
+                <form id="contact" action="" method="post" class="form-box">
+                    <h1>Contact Us</h1>
+                    <h3>Fill in below to get in touch with The Wickham Pantry</h3>
+                    <fieldset>
+                        <input type="text" id="fname" name="fname" placeholder="First Name" tabindex="1" required autofocus><br>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name" tabindex="2" required>
+                        <input type="email" id="email" name="email" placeholder="Email Address" tabindex="3" required>
+                        <textarea name="message" placeholder="Type your message here..." required></textarea>
+                        <button type="submit" name="submit" id="submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
                 </form>
             </div>
         </div>
