@@ -672,6 +672,7 @@ footer {
   }
 
 /*for medium screens sizes from 950px wide and down */
+
 @media screen and (max-width: 950px) {
 
   /* about us */
@@ -687,10 +688,6 @@ footer {
     height: auto;
   }
 
-  .left-about {
-    
-  }
-
   .right-about {
     text-align: center;
     margin: 0 auto;
@@ -704,4 +701,60 @@ footer {
   margin: 30px;
   padding: 30px;
   }
+}
+
+/*for small screens sizes from 800px wide and down */
+
+@media screen and (max-width: 800px) {
+  
+  .get-involved-main {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .money, .food, .partner, .volunteer {
+    grid-column: 1;
+  }
+  
+  .money {
+    grid-row: 1;
+}
+
+.food {
+    grid-row: 2;
+}
+
+.partner {
+    grid-row: 3;
+}
+
+.volunteer {
+    grid-row: 4;
+}
+  
+  
+  
+  .contact-details {
+    display: grid;
+    align-items: center;
+
+  }
+
+  .contact-pantry {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .contact-form {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    max-width: inherit;
+    padding: 0 0 60px 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
 }
