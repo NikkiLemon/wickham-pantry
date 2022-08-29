@@ -38,7 +38,7 @@ header {
     height: auto;
     background-color: bisque;
     overflow: hidden;
-    position: static;
+    position: sticky;
 }
 
 .logo {
@@ -806,5 +806,36 @@ footer {
         position: absolute;
         text-align: center;
         padding: 25px;
+        background-size: 100% !important;
+        background-position: inherit !important;
+    }
+
+    /* find us */
+    .find-us-info {
+        grid-template-columns: 1fr;
+        padding-bottom: 0;
+    }
+
+    .map {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .address {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        text-align: center;
+        padding: 0;
+    }
+
+    /* contact details */
+
+    .contact-us {
+        margin-bottom: 0;
+    }
+
+    .contact-details {
+        border: 0;
+        padding-inline: 30px;
     }
 }
