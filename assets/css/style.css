@@ -364,6 +364,11 @@ video {
     padding: 30px;
 }
 
+.fa-solid {
+  text-decoration: none;
+  padding-right: 5px;
+}
+
 .get-involved-main div {
     border: 5px solid bisque;
     padding: 10px;
@@ -680,7 +685,8 @@ footer {
     display: grid;
     grid-template-rows: 1fr 1fr;
     width: 100%;
-    height: auto;
+    height: 600px;
+    padding-bottom: 30px;
   }
 
   .left-about, .right-about {
@@ -696,48 +702,9 @@ footer {
 
   /* contact us */
 
-.contact-form {
-  max-width: 400px;
-  margin: 30px;
-  padding: 30px;
-  }
-}
-
-/*for small screens sizes from 800px wide and down */
-
-@media screen and (max-width: 800px) {
-  
-  .get-involved-main {
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-  }
-
-  .money, .food, .partner, .volunteer {
-    grid-column: 1;
-  }
-  
-  .money {
-    grid-row: 1;
-}
-
-.food {
-    grid-row: 2;
-}
-
-.partner {
-    grid-row: 3;
-}
-
-.volunteer {
-    grid-row: 4;
-}
-  
-  
-  
   .contact-details {
     display: grid;
     align-items: center;
-
   }
 
   .contact-pantry {
@@ -756,5 +723,34 @@ footer {
     justify-content: center;
   }
 
+}
 
+/*for small screens sizes from 800px wide and down */
+
+@media screen and (max-width: 800px) {
+  
+  .get-involved-main {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .money, .food, .partner, .volunteer {
+    grid-column: 1;
+  }
+  
+  .money {
+    grid-row: 1;
+  }
+
+  .food {
+      grid-row: 2;
+  }
+
+  .partner {
+      grid-row: 3;
+  }
+
+  .volunteer {
+      grid-row: 4;
+  }
 }
