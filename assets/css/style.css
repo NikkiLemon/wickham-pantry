@@ -431,7 +431,6 @@ video {
 }
 
 #carousel::-webkit-scrollbar {
-    display: inside;
     width: 10px;
     -webkit-overflow-scrolling: touch;
 }
@@ -775,6 +774,9 @@ footer {
         justify-content: center;
     }
 
+    .form-box {
+        text-align: center;
+    }
 }
 
 /*for small screens sizes from 800px wide and down */
@@ -784,9 +786,6 @@ footer {
     .get-involved-main {
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr;
-    }
-
-    .get-involved-main h3 {
         text-align: center;
     }
 
