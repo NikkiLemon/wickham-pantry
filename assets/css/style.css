@@ -130,6 +130,7 @@ li {
 
 .carousel {
     position: static;
+    z-index: 1000;
     height: 600px;
     filter: drop-shadow(0 0 10px #0003);
     width: 100%;
