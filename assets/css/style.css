@@ -38,6 +38,7 @@ header {
     height: auto;
     background-color: bisque;
     overflow: hidden;
+    position: static;
 }
 
 .logo {
@@ -796,4 +797,14 @@ footer {
         grid-row: 4;
     }
 
+}
+
+/* mobile screens */
+@media screen and (max-width: 640px) {
+
+    .header {
+        position: absolute;
+        text-align: center;
+        padding: 25px;
+    }
 }
