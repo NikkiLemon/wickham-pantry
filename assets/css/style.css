@@ -154,17 +154,17 @@ li {
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-image: url(/assets/images/two-ladies-shopping.jpg);
+    background-image: url(assets/images/two-ladies-shopping.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .carousel__slide:nth-child(+1) {
-    background-image: url(/assets/images/van-delivery.jpg);
+    background-image: url(assets/images/van-delivery.jpg);
 }
 
 .carousel__slide:nth-child(+2) {
-    background-image: url(/assets/images/volunteers.jpg);
+    background-image: url(assets/images/volunteers.jpg);
 }
 
 .carousel__slide:before {
@@ -560,7 +560,7 @@ video {
 }
 
 .contact-details {
-    background: url(/assets/images/veg.jpg);
+    background: url(assets/images/veg.jpg);
     background-size: cover;
     background-position: center;
     border: 30px solid white;
