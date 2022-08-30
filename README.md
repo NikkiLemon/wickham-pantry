@@ -11,6 +11,8 @@ This is the main charity website for Wickham Pantry Charity. It is designed to b
 <li><b>Header</b></li>
 <p>Featured at the top of the page is a header with the Wickhanm Pantry logo in the top left corner. this logo also will allow you to reload the index.html page.</p>
 </ul>
+<img src="assets/images/header.png" alt="header" title="header title">
+
 
 <ul>
 <li><b>The landing page images</b>
@@ -20,6 +22,7 @@ This is the main charity website for Wickham Pantry Charity. It is designed to b
 This sections gives a cleae insight into what the pantry is about and grabs the users attention.</p>
 </ul>
 
+<img src="assets/images/carousel.png" alt="carousel" title="carousel">
 
 <ul>
 <li><b>Navigation</b>
@@ -29,6 +32,8 @@ This sections gives a cleae insight into what the pantry is about and grabs the 
 This section will allow users to easily navigate across the page without having to scroll down the entire page.</p>
 </ul>
 
+<img src="assets/images/menu.png" alt="menu" title="menu">
+
 <ul>
 <li><b>About Us</b>
 </li>
@@ -37,11 +42,15 @@ This section will allow users to easily navigate across the page without having 
 This encourage the user to continue scrolling and see if they would like to get involved.</p>
 </ul>
 
+<img src="assets/images/about-us.png" alt="about us section" title="about us">
+
 <ul>
 <li><b>Get Involved</b>
 </li>
 <p>This section will allow the user to see exactly how they can get involved with the pantry if they do not want to be a user, this section tells them about how they can donate money, food, partner with us and volunteer</p>
 </ul>
+
+<img src="assets/images/get-involved.png" alt="get involved section" title="get involved">
 
 <ul>
 <li><b>What Our Customers Thought</b>
@@ -51,11 +60,15 @@ This encourage the user to continue scrolling and see if they would like to get 
 This section is also full scrollable on all devices so will be updated as new reviews and testimonials come in.</p>
 </ul>
 
+<img src="assets/images/testimonials.png" alt="testimonial section" title="testimonials">
+
 <ul>
 <li><b>Where To Find Us</b>
 </li>
 <p>This section includes a Google Maps which shows the exact location of the pantry so users can see whrer it is, but also has the address on the right hand side for ease. </p>
 </ul>
+
+<img src="assets/images/find-us.png" alt="where to find us section" title="find us">
 
 <ul>
 <li><b>Contact Us</b>
@@ -65,6 +78,8 @@ This section is also full scrollable on all devices so will be updated as new re
 This section also includes a contact us form where you can leave your name, email address and message if you do not want to call or email the pantry direct.</p>
 </ul>
 
+<img src="assets/images/contact-us.png" alt="contact us section" title="contact us">
+
 <ul>
 <li><b>Footer</b>
 </li>
@@ -72,6 +87,8 @@ This section also includes a contact us form where you can leave your name, emai
 
 The footer is valuable to the user as it encourages them to keep connected via social media.</p>
 </ul>
+
+<img src="assets/images/footer.png" alt="footer section" title="footer">
 
 <h2>Testing</h2>
 
@@ -103,6 +120,7 @@ The live link can be found here - https://nikkilemon.github.io/wickham-pantry/
 <h2>Credit</h2>
 <b>Content</b>
 <li>The Icons in the Get Involved section and Footer where from Font Awesome website.</li>
+<li>Information about getting involved from Portsmouth Bank website.</li>
 <b>Media</b>
 <li>The images used on this home page where from pexels.com</li>
 

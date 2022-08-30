@@ -163,7 +163,7 @@ li {
 }
 
 .carousel__slide:nth-child(+2) {
-    background-image: url(../images/volunteers.webp);
+    background-image: url(../images/volunteers.jpg);
 }
 
 .carousel__slide:before {
