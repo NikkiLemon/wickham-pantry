@@ -2,7 +2,9 @@
 
 This is the main charity website for Wickham Pantry Charity. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential voluteeners, partners and anyone looking to donate or visit the Pantry. 
 
-<h2 align="center"> IMAGE HERE</h2>
+<h2 align="center"> 
+
+<img src="assets/images/screenshot-devices.png" alt="different devices showing the pantry website" title="pantry on different devices">
 
 <h2>Feautures</h2>
 
