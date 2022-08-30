@@ -105,8 +105,10 @@ I have also made the smaller mobile screens center aligned as this appears to be
 <h2>Validator Testing</h2>
 <b>HTML</b>
 <li>No errors were returned when passing through the official W3C validator</li>
+<img src="assets/images/html-check.png" alt="screenshot of html check" title="html check">
 <b>CSS</b>
 <li>No errors were found when passing through the official (Jigsaw) validator</li>
+<img src="assets/images/css-check.png" alt="screenshot of css check" title="css check">
 
 <h2>Unfixed Bugs</h2>
 <p>One unfixed bug woukd be the menu section on the site. I would like to be able to make this into a Hamburger menu when on smaller devices but it was not responsive to being in the top right corner and when opened was hidden under the carousel. For the moment the menu is resposive by going into a vertical list when on smaller mobile devices.</p>
